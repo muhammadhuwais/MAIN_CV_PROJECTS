@@ -9,10 +9,10 @@ def load_model():
         data = pickle.load(file)
     return data
 
-data = load_model()
+data1 = load_model()
 
-model = data['model']
-scaler = data['scaler']
+model = data1['model']
+scaler = data1['scaler']
 
 # Title of the app
 st.title("Diabetes Prediction")
